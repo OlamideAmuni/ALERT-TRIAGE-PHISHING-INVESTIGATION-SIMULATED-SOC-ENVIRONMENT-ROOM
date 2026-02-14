@@ -21,6 +21,7 @@ Total Alerts: 5
 1 High Severity (Firewall data source)
 
 4 Medium Severity (Email data source)
+![alert Queue screenshot](image2.jpeg)
 
 I Followed standard SOC prioritization procedures:
 "High to Medium to Low"
