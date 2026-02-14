@@ -48,9 +48,9 @@ Email Log to User Clicked Malicious URL to Firewall Block Event
 True Positive
 - Escalation:
 Escalated to Tier 2 for:
-Endpoint validation
-Confirmation of no credential compromise
-Further investigation of potential payload execution
+1. Endpoint validation
+2. Confirmation of no credential compromise
+3. Further investigation of potential payload execution
 
 # Phishing Email Analysis
 1. Indicators Observed:
@@ -61,10 +61,11 @@ Further investigation of potential payload execution
 - Character substitution (e.g., M1cro instead of Micro)
 
 2. URL Validation:
-  The attached URL in the email content was checked against the threat intelligence platform and returned as clean. and this same url is found in the firewall logs, it is the url creating the connection between the internal system and the external malicious IP address 
+  The attached URL in the email content was checked against the threat intelligence platform and returned as clean. and this same url is found in the firewall logs, it is the url creating the connection between the internal system and the external malicious IP address
+
 Assessment: Likely newly registered or previously unreported phishing infrastructure.
 
-3. Actions Taken:
+4. Actions Taken:
 - Recommended adding URL and associated IP address to IOC blacklist
 - Suggested blocking sender infrastructure
 - Recommended user awareness notification
@@ -72,9 +73,11 @@ Assessment: Likely newly registered or previously unreported phishing infrastruc
   
 ## False Positive Handling
 Two alerts were investigated and determined to be legitimate communications from verified sources.
+
 Justification included:
 - Legitimate domain validation
 - No malicious indicators observed
+- 
 These were documented and closed as False Positives.
 
 ## Tools & Techniques Used
@@ -93,6 +96,8 @@ These were documented and closed as False Positives.
 - Detection of typosquatting and phishing tactics
 - Escalation decision-making
 - Structured Reporting
+
+  ![Tryhackme Badge I Earned](image3.jpeg)
   
 ## Challenges Faced
 This was my first interaction with a full SOC dashboard environment and it is tryhackme hands on room.
@@ -114,6 +119,7 @@ Approximately 3 hours were spent thoroughly investigating and validating alerts,
 
 ## MITRE ATT&CK Mapping
 ATTACK tactics: initial access (phishing) T1566
+
 ATTACK.Technique: Spearphishing Link T1566.002
   
 ## Conclusion
