@@ -1,4 +1,4 @@
-## SOC Alert Triage & Phishing Investigation – Simulated SOC Environment
+## SOC ALERT TRIAGE AND PHISHING INVESTIGATION-SIMULATED SOC ENVIRONMENT
 # Environment Overview
 This investigation was conducted within a simulated SOC dashboard environment consisting of:
 - Alert Queue (Real-time alerts)
