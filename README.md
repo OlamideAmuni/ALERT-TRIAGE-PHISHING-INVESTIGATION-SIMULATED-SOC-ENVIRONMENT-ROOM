@@ -35,6 +35,8 @@ The High severity alert was investigated first.
    
 The firewall detected an internal system attempting to establish a connection with an external IP address.
 
+![alert description screenshot](image7.jpeg)
+
 Findings:
 - Destination IP was already listed in the organization’s Threat Intelligence blacklist.
 - The firewall successfully blocked the connection.
