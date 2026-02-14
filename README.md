@@ -17,11 +17,14 @@ To triage multiple alerts, determine True Positives vs False Positives, perform 
 
 # Alert Overview:
 Total Alerts: 5
+
 1 High Severity (Firewall data source)
+
 4 Medium Severity (Email data source)
 
 I Followed standard SOC prioritization procedures:
 "High to Medium to Low"
+
 The High severity alert was investigated first.
 ## Investigation Workflow
  # High Severity Firewall Alert
