@@ -7,6 +7,8 @@ This investigation was conducted within a simulated SOC dashboard environment co
 - Email Logs
 - Threat Intelligence Platform (IOC validation)
 - Analyst Virtual Machine
+  
+  ![SOC dashboard screenshot](image1.jpg)
 
 The environment simulated real-time log ingestion from multiple data sources including firewall and email security systems.
 
