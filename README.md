@@ -25,6 +25,7 @@ The High severity alert was investigated first.
  # High Severity Firewall Alert
  - Alert Type: Suspicious outbound connection
  - Data Source: Firewall Logs
+   
 The firewall detected an internal system attempting to establish a connection with an external IP address.
 
 Findings:
